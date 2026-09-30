@@ -23,7 +23,7 @@ Each catalogue page is a single flattened page render, a JPEG of about 1054 × 1
 
 ---
 
-## Catalogue images in use (24)
+## Catalogue images in use (26)
 
 | Website section | Key | PDF page | Extracted image | Crop | Final output files | Dimensions |
 |---|---|---|---|---|---|---|
@@ -35,16 +35,18 @@ Each catalogue page is a single flattened page render, a JPEG of about 1054 × 1
 | Home / Products grid — Sweatshirts | `products-sweatshirts` | 7 | obj76.jpg | 20, 230, 630, 788 | `/images/products/sweatshirts-{480,630}w.webp` | 630 × 788 (4:5) |
 | Home / Products grid — Corporate Apparel | `products-corporate-apparel` | 25 | obj318.jpg | 0, 490, 480, 600 | `/images/products/corporate-apparel-{480}w.webp` | 480 × 600 (4:5) |
 | Home / Products grid — Workwear | `products-workwear` | 15 | obj177.jpg | 30, 165, 500, 625 | `/images/products/workwear-{480,500}w.webp` | 500 × 625 (4:5) |
-| Home / Products grid — School Uniforms | `products-school-uniforms` | 11 | obj126.jpg | 10, 200, 600, 750 | `/images/products/school-uniforms-{480,600}w.webp` | 600 × 750 (4:5) |
+| Home / Products grid — School Uniforms | `products-school-uniforms` | 10 | obj415.jpg | 10, 200, 600, 750 | `/images/products/school-uniforms-{480,600}w.webp` | 600 × 750 (4:5) |
+| Home / Products grid — Graduation Apparel | `products-graduation-apparel` | 5 | obj52.jpg | 20, 230, 630, 788 | `/images/products/graduation-apparel-{480,630}w.webp` | 630 × 788 (4:5) |
 | Home / Products grid — University Merchandise | `products-university-merchandise` | 6 | obj64.jpg | 20, 230, 630, 788 | `/images/products/university-merchandise-{480,630}w.webp` | 630 × 788 (4:5) |
 | Home / Products grid — Accessories | `products-accessories` | 30 | obj380.jpg | 165, 350, 370, 462 | `/images/products/accessories-{370}w.webp` | 370 × 463 (4:5) |
 | Home / Products grid — Bags | `products-bags` | 16 | obj192.jpg | 108, 180, 468, 585 | `/images/products/bags-{468}w.webp` | 468 × 585 (4:5) |
 | Home / Products grid — Caps | `products-caps` | 29 | obj375.jpg | 170, 262, 434, 543 | `/images/products/caps-{434}w.webp` | 434 × 543 (4:5) |
 | Products / Showcase — Essentials | `products-showcase-essentials` | 8 | obj88.jpg | 20, 230, 630, 788 | `/images/products/showcase-essentials-{480,630}w.webp` | 630 × 788 (4:5) |
-| Products / Showcase — Education | `products-showcase-education` | 10 | obj415.jpg | 10, 200, 600, 750 | `/images/products/showcase-education-{480,600}w.webp` | 600 × 750 (4:5) |
+| Products / Showcase — Education | `products-showcase-education` | 11 | obj126.jpg | 10, 200, 600, 750 | `/images/products/showcase-education-{480,600}w.webp` | 600 × 750 (4:5) |
 | Home / Industries — Fashion Brands | `industries-fashion` | 22 | obj283.jpg | 0, 470, 480, 600 | `/images/industries/fashion-brands-{480}w.webp` | 480 × 600 (4:5) |
-| Home / Industries — Schools | `industries-schools` | 10 | obj415.jpg | 10, 200, 600, 750 | `/images/industries/schools-{480,600}w.webp` | 600 × 750 (4:5) |
-| Home / Industries — Universities | `industries-universities` | 5 | obj52.jpg | 20, 230, 630, 788 | `/images/industries/universities-{480,630}w.webp` | 630 × 788 (4:5) |
+| Home / Industries — Schools | `industries-schools` | 11 | obj126.jpg | 10, 200, 600, 750 | `/images/industries/schools-{480,600}w.webp` | 600 × 750 (4:5) |
+| Home / Industries — Universities | `industries-universities` | 8 | obj88.jpg | 20, 230, 630, 788 | `/images/industries/universities-{480,630}w.webp` | 630 × 788 (4:5) |
+| Home / Private label manufacturing | `private-label-materials` | 17 | obj207.jpg | 60, 250, 600, 400 | `/images/private-label/private-label-materials-{480,600}w.webp` | 600 × 400 (3:2) |
 | Home / Industries — Corporate Organizations | `industries-corporate` | 21 | obj268.jpg | 0, 360, 480, 600 | `/images/industries/corporate-organizations-{480}w.webp` | 480 × 600 (4:5) |
 | Home / Industries — Sports Clubs | `industries-sports` | 9 | obj100.jpg | 10, 200, 600, 750 | `/images/industries/sports-clubs-{480,600}w.webp` | 600 × 750 (4:5) |
 | Home / Industries — Event Companies | `industries-events` | 1 | obj449.jpg | 60, 600, 560, 700 | `/images/industries/event-companies-{480,560}w.webp` | 560 × 700 (4:5) |
@@ -54,18 +56,16 @@ Each catalogue page is a single flattened page render, a JPEG of about 1054 × 1
 
 Your priority ranges were followed: Corporate Apparel comes from pages 20–25 (p. 25, with p. 21 and p. 22 used for the related industry cards), Workwear from pages 12–15 (p. 15), and Bags from pages 16–19 (p. 16).
 
-The EN and DE alt text for every image is in `lib/images/manifest.json` and describes the actual product shown.
+The EN, DE and TR alt text for every image is in `lib/images/manifest.json` and describes the actual product shown.
 
 ---
 
-## Placeholders kept (10) — no suitable catalogue image
+## Placeholders kept (8) — no suitable catalogue image
 
-The catalogue contains product shots only. It has no production, process, labelling or packaging photography, and no graduation apparel.
+The catalogue contains product shots only and has no production or process photography. Until real photos exist, the "Inside BadFly" gallery is hidden from the site automatically, so no placeholder is visible to visitors.
 
 | Website section | Key | Reason |
 |---|---|---|
-| Home / Private label manufacturing | `private-label-materials` | No labels, hang tags or packaging are shown in the catalogue. |
-| Home / Products grid — Graduation Apparel | `products-graduation-apparel` | The catalogue has no gowns, stoles or graduation items. |
 | Home / Gallery ("Inside BadFly") | `process-design-development`, `process-fabric-selection`, `process-sampling`, `process-garment-production`, `process-stitching-details`, `process-quality-control`, `process-packaging`, `process-international-delivery` | No production-floor or process photography. The garment detail tiles on pp. 20–28 are about 230 px and too small to use. |
 
 Prompts for these images are in [IMAGE-GENERATION-PROMPTS.md](IMAGE-GENERATION-PROMPTS.md). To install a real photo, save it as `images-src/<key>.jpg` and run `npm run images:optimize`.
@@ -77,7 +77,7 @@ Prompts for these images are in [IMAGE-GENERATION-PROMPTS.md](IMAGE-GENERATION-P
 | Pages | Content | Reason |
 |---|---|---|
 | 13 | Medical lab coat | Workwear is represented by p. 15, which the priority list names. |
-| 17–19 | Postman bag, backpacks, waist bag | Bags is represented by p. 16. On pp. 18–19 the products sit beside large blocks of text, so a clean 4:5 crop isn't possible. |
+| 18–19 | Backpacks, waist bag | Bags is represented by p. 16 and p. 17. On pp. 18–19 the products sit beside large blocks of text, so a clean 4:5 crop isn't possible. |
 | 20, 23, 24, 26–28 | Blazers and jackets on models | Corporate is represented by pp. 21, 22 and 25. |
 
 ## Resolution note

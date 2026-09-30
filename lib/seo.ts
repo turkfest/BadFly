@@ -77,7 +77,7 @@ export function organizationJsonLd(locale: Locale, dict: Dictionary) {
       availableLanguage: ["English", "German", "Turkish"],
       areaServed: "EU",
     },
-    sameAs: Object.values(site.social),
+    sameAs: site.social.map((s) => s.url),
   };
 }
 

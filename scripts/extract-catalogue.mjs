@@ -60,8 +60,28 @@ export const crops = {
     alt: { en: "Black heavyweight hoodie with drawcords and kangaroo pocket", de: "Schwarzer schwerer Hoodie mit Kordeln und Kängurutasche", tr: "İpli ve kanguru cepli siyah ağır gramaj kapüşonlu sweatshirt" },
   },
   "industries-universities": {
-    page: 5, rect: [20, 230, 630, 788], file: "/images/industries/universities.webp", target: P45,
-    alt: { en: "Purple full-zip hoodie with ribbed cuffs", de: "Lila Hoodie mit durchgehendem Reißverschluss und Rippbündchen", tr: "Ribanalı manşetli mor fermuarlı kapüşonlu sweatshirt" },
+    page: 8, rect: [20, 230, 630, 788], file: "/images/industries/universities.webp", target: P45,
+    alt: {
+      en: "Mustard long-sleeve knitted polo for campus collections",
+      de: "Senfgelbes langärmeliges Strick-Poloshirt für Campus-Kollektionen",
+      tr: "Kampüs koleksiyonları için hardal rengi uzun kollu triko polo",
+    },
+  },
+  "products-graduation-apparel": {
+    page: 5, rect: [20, 230, 630, 788], file: "/images/products/graduation-apparel.webp", target: P45,
+    alt: {
+      en: "Purple full-zip hoodie for graduation and class collections",
+      de: "Lila Zip-Hoodie für Abschluss- und Jahrgangskollektionen",
+      tr: "Mezuniyet ve dönem koleksiyonları için mor fermuarlı kapüşonlu sweatshirt",
+    },
+  },
+  "private-label-materials": {
+    page: 17, rect: [60, 250, 600, 400], file: "/images/private-label/private-label-materials.webp", target: [1800, 1200],
+    alt: {
+      en: "Black canvas messenger bag with leather-look base panel and adjustable strap",
+      de: "Schwarze Canvas-Umhängetasche mit Unterteil in Lederoptik und verstellbarem Gurt",
+      tr: "Deri görünümlü alt panelli ve ayarlanabilir askılı siyah kanvas postacı çantası",
+    },
   },
   "products-university-merchandise": {
     page: 6, rect: [20, 230, 630, 788], file: "/images/products/university-merchandise.webp", target: P45,
@@ -79,17 +99,18 @@ export const crops = {
     page: 9, rect: [10, 200, 600, 750], file: "/images/industries/sports-clubs.webp", target: P45,
     alt: { en: "Navy jogger trousers with drawcord waist and ribbed cuffs", de: "Marineblaue Jogginghose mit Tunnelzug und Rippbündchen", tr: "Bel bağcıklı ve ribanalı paçalı lacivert eşofman altı" },
   },
+  // Skirt/trousers alternate so the same garment never appears twice on one page.
   "products-showcase-education": {
-    page: 10, rect: [10, 200, 600, 750], file: "/images/products/showcase-education.webp", target: [1400, 1750],
-    alt: { en: "Navy tailored uniform trousers", de: "Marineblaue Uniformhose mit klassischem Schnitt", tr: "Lacivert klasik kesim üniforma pantolonu" },
+    page: 11, rect: [10, 200, 600, 750], file: "/images/products/showcase-education.webp", target: [1400, 1750],
+    alt: { en: "Navy A-line uniform skirt with side pleats", de: "Marineblauer A-Linien-Uniformrock mit seitlichen Falten", tr: "Yanları pliseli lacivert A kesim üniforma eteği" },
   },
   "industries-schools": {
-    page: 10, rect: [10, 200, 600, 750], file: "/images/industries/schools.webp", target: P45,
-    alt: { en: "Navy tailored trousers for school uniform programmes", de: "Marineblaue Hose für Schuluniform-Programme", tr: "Okul üniforması programları için lacivert klasik pantolon" },
+    page: 11, rect: [10, 200, 600, 750], file: "/images/industries/schools.webp", target: P45,
+    alt: { en: "Navy pleated skirt for school uniform programmes", de: "Marineblauer Faltenrock für Schuluniform-Programme", tr: "Okul üniforması programları için lacivert pliseli etek" },
   },
   "products-school-uniforms": {
-    page: 11, rect: [10, 200, 600, 750], file: "/images/products/school-uniforms.webp", target: P45,
-    alt: { en: "Navy A-line uniform skirt with side pleats", de: "Marineblauer A-Linien-Uniformrock mit seitlichen Falten", tr: "Yanları pliseli lacivert A kesim üniforma eteği" },
+    page: 10, rect: [10, 200, 600, 750], file: "/images/products/school-uniforms.webp", target: P45,
+    alt: { en: "Navy tailored uniform trousers", de: "Marineblaue Uniformhose mit klassischem Schnitt", tr: "Lacivert klasik kesim üniforma pantolonu" },
   },
   "about-story": {
     page: 12, rect: [40, 200, 570, 712], file: "/images/about/navy-apron.webp", target: P45,

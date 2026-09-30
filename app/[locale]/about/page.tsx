@@ -90,7 +90,7 @@ export default async function AboutPage({ params }: Props) {
             {t.philosophy.items.map((item, i) => (
               <StaggerItem
                 key={item.title}
-                className="flex min-h-[18rem] flex-col justify-between bg-bone-50 p-8 transition-transform duration-700 ease-premium hover:-translate-y-1"
+                className="flex flex-col gap-14 bg-bone-50 p-8 transition-transform duration-700 ease-premium hover:-translate-y-1"
               >
                 <span className="font-display text-5xl font-medium text-clay-500/80">0{i + 1}</span>
                 <div>

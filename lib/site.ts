@@ -4,8 +4,6 @@ export const site = {
   email: "info@badfly.com",
   country: "TR",
   areaServed: "Europe",
-  social: {
-    linkedin: "https://www.linkedin.com/company/badfly",
-    instagram: "https://www.instagram.com/badfly",
-  },
-} as const;
+  // Add verified profile URLs (e.g. { name: "LinkedIn", url: "https://..." }); links render only when listed.
+  social: [] as { name: string; url: string }[],
+};

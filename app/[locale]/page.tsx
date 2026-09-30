@@ -36,6 +36,10 @@ export default async function HomePage({ params }: Props) {
   const locale = await resolveLocale(params);
   const dict = getDictionary(locale);
   const t = dict.home;
+  // Placeholders never ship in the gallery; the section appears once real photos exist.
+  const galleryItems = gallery
+    .map((key) => ({ id: key, ...getImage(key, locale) }))
+    .filter((item) => !item.placeholder);
 
   return (
     <>
@@ -52,7 +56,7 @@ export default async function HomePage({ params }: Props) {
         stepLabel={dict.common.step}
       />
       <PrivateLabelHighlight locale={locale} dict={dict} />
-      <Gallery items={gallery.map((key) => ({ id: key, ...getImage(key, locale) }))} dict={t.gallery} />
+      {galleryItems.length > 0 && <Gallery items={galleryItems} dict={t.gallery} />}
       <Testimonials dict={t.testimonials} labels={{ previous: dict.common.previous, next: dict.common.next }} />
       <ContactCta
         eyebrow={t.cta.eyebrow}

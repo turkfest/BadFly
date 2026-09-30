@@ -60,16 +60,13 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
                   {site.email}
                 </a>
               </li>
-              <li>
-                <a href={site.social.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 transition-colors hover:text-bone-50">
-                  LinkedIn <ArrowUpRight size={14} />
-                </a>
-              </li>
-              <li>
-                <a href={site.social.instagram} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 transition-colors hover:text-bone-50">
-                  Instagram <ArrowUpRight size={14} />
-                </a>
-              </li>
+              {site.social.map((s) => (
+                <li key={s.url}>
+                  <a href={s.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 transition-colors hover:text-bone-50">
+                    {s.name} <ArrowUpRight size={14} />
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

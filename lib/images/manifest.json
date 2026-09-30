@@ -74,15 +74,33 @@
       1800,
       1200
     ],
-    "size": null,
-    "status": "placeholder",
+    "size": [
+      600,
+      400
+    ],
+    "status": "final",
     "position": "50% 50%",
     "section": "Home / Private label manufacturing",
     "alt": {
-      "en": "Blank woven labels, folded garments, thread cones, fabric swatches and a technical sketch on a worktable",
-      "de": "Unbedruckte Webetiketten, gefaltete Kleidung, Garnkonen, Stoffmuster und eine technische Skizze auf einem Arbeitstisch",
-      "tr": "Çalışma masasında boş dokuma etiketler, katlanmış giysiler, iplik bobinleri, kumaş numuneleri ve teknik çizim"
-    }
+      "en": "Black canvas messenger bag with leather-look base panel and adjustable strap",
+      "de": "Schwarze Canvas-Umhängetasche mit Unterteil in Lederoptik und verstellbarem Gurt",
+      "tr": "Deri görünümlü alt panelli ve ayarlanabilir askılı siyah kanvas postacı çantası"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 17,
+      "object": 207,
+      "rect": [
+        60,
+        250,
+        600,
+        400
+      ]
+    },
+    "widths": [
+      480,
+      600
+    ]
   },
   "private-label-hero": {
     "file": "/images/private-label/bags-and-aprons.webp",
@@ -405,14 +423,14 @@
     "position": "50% 50%",
     "section": "Home / What we manufacture; Products / Grid",
     "alt": {
-      "en": "Navy A-line uniform skirt with side pleats",
-      "de": "Marineblauer A-Linien-Uniformrock mit seitlichen Falten",
-      "tr": "Yanları pliseli lacivert A kesim üniforma eteği"
+      "en": "Navy tailored uniform trousers",
+      "de": "Marineblaue Uniformhose mit klassischem Schnitt",
+      "tr": "Lacivert klasik kesim üniforma pantolonu"
     },
     "source": {
       "pdf": "source-materials/badfly-ing.pdf",
-      "page": 11,
-      "object": 126,
+      "page": 10,
+      "object": 415,
       "rect": [
         10,
         200,
@@ -465,15 +483,33 @@
       1200,
       1500
     ],
-    "size": null,
-    "status": "placeholder",
+    "size": [
+      630,
+      788
+    ],
+    "status": "final",
     "position": "50% 50%",
     "section": "Home / What we manufacture; Products / Grid",
     "alt": {
-      "en": "Graduation gown and stole folded beside a mortarboard cap",
-      "de": "Abschlusstalar und Stola gefaltet neben einem Doktorhut",
-      "tr": "Mezuniyet kepinin yanında katlanmış cübbe ve şal"
-    }
+      "en": "Purple full-zip hoodie for graduation and class collections",
+      "de": "Lila Zip-Hoodie für Abschluss- und Jahrgangskollektionen",
+      "tr": "Mezuniyet ve dönem koleksiyonları için mor fermuarlı kapüşonlu sweatshirt"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 5,
+      "object": 52,
+      "rect": [
+        20,
+        230,
+        630,
+        788
+      ]
+    },
+    "widths": [
+      480,
+      630
+    ]
   },
   "products-accessories": {
     "file": "/images/products/accessories.webp",
@@ -622,14 +658,14 @@
     "position": "50% 50%",
     "section": "Products / Showcase — Education",
     "alt": {
-      "en": "Navy tailored uniform trousers",
-      "de": "Marineblaue Uniformhose mit klassischem Schnitt",
-      "tr": "Lacivert klasik kesim üniforma pantolonu"
+      "en": "Navy A-line uniform skirt with side pleats",
+      "de": "Marineblauer A-Linien-Uniformrock mit seitlichen Falten",
+      "tr": "Yanları pliseli lacivert A kesim üniforma eteği"
     },
     "source": {
       "pdf": "source-materials/badfly-ing.pdf",
-      "page": 10,
-      "object": 415,
+      "page": 11,
+      "object": 126,
       "rect": [
         10,
         200,
@@ -689,14 +725,14 @@
     "position": "50% 50%",
     "section": "Home / Industries",
     "alt": {
-      "en": "Navy tailored trousers for school uniform programmes",
-      "de": "Marineblaue Hose für Schuluniform-Programme",
-      "tr": "Okul üniforması programları için lacivert klasik pantolon"
+      "en": "Navy pleated skirt for school uniform programmes",
+      "de": "Marineblauer Faltenrock für Schuluniform-Programme",
+      "tr": "Okul üniforması programları için lacivert pliseli etek"
     },
     "source": {
       "pdf": "source-materials/badfly-ing.pdf",
-      "page": 10,
-      "object": 415,
+      "page": 11,
+      "object": 126,
       "rect": [
         10,
         200,
@@ -723,14 +759,14 @@
     "position": "50% 50%",
     "section": "Home / Industries",
     "alt": {
-      "en": "Purple full-zip hoodie with ribbed cuffs",
-      "de": "Lila Hoodie mit durchgehendem Reißverschluss und Rippbündchen",
-      "tr": "Ribanalı manşetli mor fermuarlı kapüşonlu sweatshirt"
+      "en": "Mustard long-sleeve knitted polo for campus collections",
+      "de": "Senfgelbes langärmeliges Strick-Poloshirt für Campus-Kollektionen",
+      "tr": "Kampüs koleksiyonları için hardal rengi uzun kollu triko polo"
     },
     "source": {
       "pdf": "source-materials/badfly-ing.pdf",
-      "page": 5,
-      "object": 52,
+      "page": 8,
+      "object": 88,
       "rect": [
         20,
         230,
