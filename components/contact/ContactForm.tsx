@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { useState, type FormEvent } from "react";
+import { useId, useState, type FormEvent } from "react";
 import type { Dictionary } from "@/dictionaries/types";
 import { buttonClasses } from "@/components/ui/Button";
 import { ArrowRight } from "@/components/ui/Icons";
@@ -15,6 +15,7 @@ const LIMITS: Record<Field, number> = { name: 100, company: 120, country: 60, em
 const empty: Values = { name: "", company: "", country: "", email: "", message: "" };
 
 export function ContactForm({ dict, recipient }: { dict: Dictionary["contactPage"]["form"]; recipient: string }) {
+  const formId = useId();
   const [values, setValues] = useState<Values>(empty);
   const [errors, setErrors] = useState<Partial<Record<Field, string>>>({});
   const [sent, setSent] = useState(false);
@@ -33,8 +34,8 @@ export function ContactForm({ dict, recipient }: { dict: Dictionary["contactPage
     const found = validate(values);
     setErrors(found);
     if (Object.keys(found).length) {
-      const first = Object.keys(found)[0];
-      document.getElementById(`contact-${first}`)?.focus();
+      const first = Object.keys(found)[0] as Field;
+      document.getElementById(`${formId}-${first}`)?.focus();
       return;
     }
 
@@ -60,11 +61,11 @@ export function ContactForm({ dict, recipient }: { dict: Dictionary["contactPage
 
   const field = (k: Field, type: "text" | "email" = "text", autoComplete?: string) => (
     <div>
-      <label htmlFor={`contact-${k}`} className="text-xs font-medium uppercase tracking-wider text-ink-500">
+      <label htmlFor={`${formId}-${k}`} className="text-xs font-medium uppercase tracking-wider text-ink-500">
         {dict[k]} <span aria-hidden="true">*</span>
       </label>
       <input
-        id={`contact-${k}`}
+        id={`${formId}-${k}`}
         name={k}
         type={type}
         autoComplete={autoComplete}
@@ -74,11 +75,11 @@ export function ContactForm({ dict, recipient }: { dict: Dictionary["contactPage
         onChange={(e) => update(k, e.target.value)}
         placeholder={dict[`${k}Placeholder` as const]}
         aria-invalid={!!errors[k]}
-        aria-describedby={errors[k] ? `contact-${k}-error` : undefined}
+        aria-describedby={errors[k] ? `${formId}-${k}-error` : undefined}
         className={cn("input", errors[k] && "border-clay-500")}
       />
       {errors[k] && (
-        <p id={`contact-${k}-error`} className="mt-2 text-sm text-clay-600">
+        <p id={`${formId}-${k}-error`} className="mt-2 text-sm text-clay-600">
           {errors[k]}
         </p>
       )}
@@ -95,11 +96,11 @@ export function ContactForm({ dict, recipient }: { dict: Dictionary["contactPage
       </div>
 
       <div>
-        <label htmlFor="contact-message" className="text-xs font-medium uppercase tracking-wider text-ink-500">
+        <label htmlFor={`${formId}-message`} className="text-xs font-medium uppercase tracking-wider text-ink-500">
           {dict.message} <span aria-hidden="true">*</span>
         </label>
         <textarea
-          id="contact-message"
+          id={`${formId}-message`}
           name="message"
           required
           rows={6}
@@ -108,11 +109,11 @@ export function ContactForm({ dict, recipient }: { dict: Dictionary["contactPage
           onChange={(e) => update("message", e.target.value)}
           placeholder={dict.messagePlaceholder}
           aria-invalid={!!errors.message}
-          aria-describedby={errors.message ? "contact-message-error" : undefined}
+          aria-describedby={errors.message ? `${formId}-message-error` : undefined}
           className={cn("input resize-y", errors.message && "border-clay-500")}
         />
         {errors.message && (
-          <p id="contact-message-error" className="mt-2 text-sm text-clay-600">
+          <p id={`${formId}-message-error`} className="mt-2 text-sm text-clay-600">
             {errors.message}
           </p>
         )}

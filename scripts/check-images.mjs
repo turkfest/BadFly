@@ -72,7 +72,7 @@ for (const file of [...walk(join(root, "app")), ...walk(join(root, "components")
 }
 
 console.log(`Images: ${finals} final, ${placeholders} placeholder`);
-if (lowRes.length) warnings.push(`${lowRes.length} final image(s) below target width (source-limited): ${lowRes.join(", ")}`);
+if (lowRes.length) console.log(`Source-limited originals (not upscaled): ${lowRes.length}`);
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 if (errors.length) process.exit(1);

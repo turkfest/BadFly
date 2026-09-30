@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useId, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/dictionaries/types";
@@ -16,6 +16,7 @@ const navItems: RouteKey[] = ["products", "privateLabel", "about", "contact"];
 
 export function Header({ locale, nav }: { locale: Locale; nav: Dictionary["nav"] }) {
   const pathname = usePathname();
+  const mobileMenuId = useId();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -27,7 +28,7 @@ export function Header({ locale, nav }: { locale: Locale; nav: Dictionary["nav"]
   }, []);
 
   useEffect(() => {
-    setOpen(false);
+    if (pathname) setOpen(false);
   }, [pathname]);
 
   useEffect(() => {
@@ -91,7 +92,7 @@ export function Header({ locale, nav }: { locale: Locale; nav: Dictionary["nav"]
               type="button"
               onClick={() => setOpen((v) => !v)}
               aria-expanded={open}
-              aria-controls="mobile-menu"
+              aria-controls={mobileMenuId}
               aria-label={open ? nav.closeMenu : nav.openMenu}
               className="-mr-2 flex h-11 w-11 items-center justify-center lg:hidden"
             >
@@ -104,7 +105,7 @@ export function Header({ locale, nav }: { locale: Locale; nav: Dictionary["nav"]
       <AnimatePresence>
         {open && (
           <motion.div
-            id="mobile-menu"
+            id={mobileMenuId}
             role="dialog"
             aria-modal="true"
             aria-label={nav.openMenu}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.4/schema.json",
+  "formatter": {
+    "enabled": false
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
+  "overrides": [
+    {
+      "includes": ["app/globals.css"],
+      "linter": {
+        "rules": {
+          "complexity": { "noImportantStyles": "off" },
+          "suspicious": { "noUnknownAtRules": "off" }
+        }
+      }
+    },
+    {
+      "includes": ["app/(root)/page.tsx", "components/ui/JsonLd.tsx"],
+      "linter": {
+        "rules": {
+          "security": { "noDangerouslySetInnerHtml": "off" }
+        }
+      }
+    },
+    {
+      "includes": ["app/\\[locale\\]/layout.tsx", "components/sections/home/ProductCategories.tsx"],
+      "linter": {
+        "rules": {
+          "correctness": { "useUniqueElementIds": "off" }
+        }
+      }
+    }
+  ],
+  "assist": {
+    "enabled": false
+  }
+}

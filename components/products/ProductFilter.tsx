@@ -35,7 +35,8 @@ export function ProductFilter({ items, groups, allLabel, filterLabel, countLabel
     <div>
       <div className="sticky top-20 z-30 -mx-5 border-b hairline bg-bone-50/90 px-5 py-4 backdrop-blur-xl md:mx-0 md:px-0">
         <div className="flex items-center justify-between gap-6">
-          <div role="group" aria-label={filterLabel} className="-mx-1 flex gap-2 overflow-x-auto px-1 [scrollbar-width:none]">
+          <fieldset className="-mx-1 flex min-w-0 gap-2 overflow-x-auto px-1 [scrollbar-width:none]">
+            <legend className="sr-only">{filterLabel}</legend>
             {options.map((o) => {
               const selected = group === o.id;
               return (
@@ -60,7 +61,7 @@ export function ProductFilter({ items, groups, allLabel, filterLabel, countLabel
                 </button>
               );
             })}
-          </div>
+          </fieldset>
           <p className="hidden shrink-0 text-sm tabular-nums text-ink-500 md:block" aria-live="polite">
             {visible.length} {countLabel}
           </p>

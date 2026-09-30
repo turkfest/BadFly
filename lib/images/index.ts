@@ -28,10 +28,12 @@ export type SiteImage = {
 
 export function getImage(key: ImageKey, locale: Locale): SiteImage {
   const e = entries[key];
-  const final = e.status === "final" && e.size !== null && !!e.widths?.length;
-  const [width, height] = final ? e.size! : e.target;
+  const widths = e.widths ?? [];
+  const dimensions = e.size ?? e.target;
+  const final = e.status === "final" && e.size !== null && widths.length > 0;
+  const [width, height] = final ? dimensions : e.target;
   return {
-    src: final ? `${e.file}#${e.widths!.join(",")}` : `/images/placeholders/${key}.svg`,
+    src: final ? `${e.file}#${widths.join(",")}` : `/images/placeholders/${key}.svg`,
     width,
     height,
     alt: e.alt[locale],

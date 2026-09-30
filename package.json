@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "node scripts/check-images.mjs",
-    "build": "next build",
+    "build": "NEXT_TELEMETRY_DISABLED=1 next build",
     "start": "npx serve@latest out",
-    "lint": "eslint .",
+    "lint": "biome lint app components dictionaries lib scripts next.config.ts tailwind.config.ts postcss.config.mjs",
     "typecheck": "tsc --noEmit",
     "images:catalogue": "node scripts/extract-catalogue.mjs",
     "images:optimize": "node scripts/optimize-images.mjs",
@@ -22,13 +22,11 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
+    "@biomejs/biome": "2.2.4",
     "@types/node": "^22.15.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
     "autoprefixer": "^10.4.21",
-    "eslint": "^9.30.0",
-    "eslint-config-next": "^15.5.0",
     "postcss": "^8.5.6",
     "sharp": "^0.35.5",
     "tailwindcss": "^3.4.17",
@@ -38,5 +36,8 @@
     "next": {
       "postcss": "^8.5.28"
     }
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
   }
 }

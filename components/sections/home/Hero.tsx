@@ -24,7 +24,7 @@ export function Hero({
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const imageScale = useTransform(scrollYProgress, [0, 1], [1, 1.08]);
 
-  const words = dict.title.split(" ");
+  const words = Array.from(dict.title.matchAll(/\S+/g), (match) => ({ word: match[0], offset: match.index }));
 
   return (
     <section ref={ref} className="grain relative overflow-hidden bg-bone-50 pb-16 pt-32 md:pb-24 md:pt-40">
@@ -53,8 +53,8 @@ export function Hero({
           </motion.p>
 
           <h1 className="font-display text-display-lg font-medium text-ink-900">
-            {words.map((word, i) => (
-              <span key={`${word}-${i}`} className="inline-block overflow-hidden pb-[0.08em] align-bottom">
+            {words.map(({ word, offset }, i) => (
+              <span key={offset} className="inline-block overflow-hidden pb-[0.08em] align-bottom">
                 <motion.span
                   className="inline-block"
                   initial={{ y: "110%" }}
