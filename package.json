@@ -1,0 +1,42 @@
+{
+  "name": "badfly-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BadFly — Custom apparel manufacturing for European brands.",
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/check-images.mjs",
+    "build": "next build",
+    "start": "npx serve@latest out",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "images:catalogue": "node scripts/extract-catalogue.mjs",
+    "images:optimize": "node scripts/optimize-images.mjs",
+    "images:placeholders": "node scripts/generate-placeholders.mjs",
+    "images:check": "node scripts/check-images.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.30.0",
+    "eslint-config-next": "^15.5.0",
+    "postcss": "^8.5.6",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "^8.5.28"
+    }
+  }
+}

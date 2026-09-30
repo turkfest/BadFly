@@ -1,0 +1,975 @@
+{
+  "home-hero": {
+    "file": "/images/home/hero-collection.webp",
+    "target": [
+      1200,
+      1200
+    ],
+    "size": [
+      990,
+      990
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / Hero",
+    "alt": {
+      "en": "BadFly collection: hoodie, polo shirt, sweatshirt and T-shirt on forms with aprons, bags and folded garments",
+      "de": "BadFly-Kollektion: Hoodie, Poloshirt, Sweatshirt und T-Shirt auf Büsten mit Schürzen, Taschen und gefalteter Kleidung",
+      "tr": "BadFly koleksiyonu: manken büstleri üzerinde kapüşonlu sweatshirt, polo tişört, sweatshirt ve tişört; önlükler, çantalar ve katlanmış ürünlerle"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 1,
+      "object": 449,
+      "rect": [
+        32,
+        320,
+        990,
+        990
+      ]
+    },
+    "widths": [
+      480,
+      800,
+      990
+    ]
+  },
+  "home-craft": {
+    "file": "/images/home/barista-aprons.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      496,
+      620
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / Who we are",
+    "alt": {
+      "en": "Black and brown canvas barista aprons with leather straps and pockets",
+      "de": "Schwarze und braune Canvas-Baristaschürzen mit Lederriemen und -taschen",
+      "tr": "Deri askılı ve cepli siyah ve kahverengi kanvas barista önlükleri"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 14,
+      "object": 162,
+      "rect": [
+        140,
+        200,
+        496,
+        620
+      ]
+    },
+    "widths": [
+      480,
+      496
+    ]
+  },
+  "private-label-materials": {
+    "file": "/images/private-label/private-label-materials.webp",
+    "target": [
+      1800,
+      1200
+    ],
+    "size": null,
+    "status": "placeholder",
+    "position": "50% 50%",
+    "section": "Home / Private label manufacturing",
+    "alt": {
+      "en": "Blank woven labels, folded garments, thread cones, fabric swatches and a technical sketch on a worktable",
+      "de": "Unbedruckte Webetiketten, gefaltete Kleidung, Garnkonen, Stoffmuster und eine technische Skizze auf einem Arbeitstisch",
+      "tr": "Çalışma masasında boş dokuma etiketler, katlanmış giysiler, iplik bobinleri, kumaş numuneleri ve teknik çizim"
+    }
+  },
+  "private-label-hero": {
+    "file": "/images/private-label/bags-and-aprons.webp",
+    "target": [
+      2400,
+      1029
+    ],
+    "size": [
+      1054,
+      452
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Private Label / Hero",
+    "alt": {
+      "en": "Canvas messenger bag, backpack, aprons and folded garments from the BadFly collection",
+      "de": "Canvas-Umhängetasche, Rucksack, Schürzen und gefaltete Kleidung aus der BadFly-Kollektion",
+      "tr": "BadFly koleksiyonundan kanvas postacı çantası, sırt çantası, önlükler ve katlanmış ürünler"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 1,
+      "object": 449,
+      "rect": [
+        0,
+        850,
+        1054,
+        452
+      ]
+    },
+    "widths": [
+      480,
+      800,
+      1054
+    ]
+  },
+  "about-hero": {
+    "file": "/images/about/collection-row.webp",
+    "target": [
+      2400,
+      1029
+    ],
+    "size": [
+      1054,
+      452
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "About / Hero",
+    "alt": {
+      "en": "Row of BadFly garments on forms — hoodie, polo shirt, sweatshirt, T-shirt and aprons",
+      "de": "Reihe von BadFly-Kleidungsstücken auf Büsten – Hoodie, Poloshirt, Sweatshirt, T-Shirt und Schürzen",
+      "tr": "Manken büstleri üzerinde BadFly ürünleri — kapüşonlu sweatshirt, polo tişört, sweatshirt, tişört ve önlükler"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 1,
+      "object": 449,
+      "rect": [
+        0,
+        330,
+        1054,
+        452
+      ]
+    },
+    "widths": [
+      480,
+      800,
+      1054
+    ]
+  },
+  "about-story": {
+    "file": "/images/about/navy-apron.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      570,
+      713
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "About / Our story",
+    "alt": {
+      "en": "Navy bib apron with front pocket and adjustable ties",
+      "de": "Marineblaue Latzschürze mit Fronttasche und verstellbaren Bändern",
+      "tr": "Ön cepli ve ayarlanabilir bağcıklı lacivert boyun askılı önlük"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 12,
+      "object": 138,
+      "rect": [
+        40,
+        200,
+        570,
+        712
+      ]
+    },
+    "widths": [
+      480,
+      570
+    ]
+  },
+  "products-t-shirts": {
+    "file": "/images/products/t-shirts.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      630,
+      788
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Olive green crew-neck cotton T-shirt",
+      "de": "Olivgrünes Baumwoll-T-Shirt mit Rundhalsausschnitt",
+      "tr": "Zeytin yeşili bisiklet yaka pamuklu tişört"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 3,
+      "object": 28,
+      "rect": [
+        20,
+        230,
+        630,
+        788
+      ]
+    },
+    "widths": [
+      480,
+      630
+    ]
+  },
+  "products-polo-shirts": {
+    "file": "/images/products/polo-shirts.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      630,
+      788
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Cream piqué polo shirt with ribbed collar and button placket",
+      "de": "Cremefarbenes Piqué-Poloshirt mit Rippkragen und Knopfleiste",
+      "tr": "Ribana yakalı ve düğmeli patlı krem pike polo tişört"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 2,
+      "object": 13,
+      "rect": [
+        20,
+        230,
+        630,
+        788
+      ]
+    },
+    "widths": [
+      480,
+      630
+    ]
+  },
+  "products-hoodies": {
+    "file": "/images/products/hoodies.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      630,
+      788
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Black heavyweight hoodie with drawcords and kangaroo pocket",
+      "de": "Schwarzer schwerer Hoodie mit Kordeln und Kängurutasche",
+      "tr": "İpli ve kanguru cepli siyah ağır gramaj kapüşonlu sweatshirt"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 4,
+      "object": 40,
+      "rect": [
+        20,
+        230,
+        630,
+        788
+      ]
+    },
+    "widths": [
+      480,
+      630
+    ]
+  },
+  "products-sweatshirts": {
+    "file": "/images/products/sweatshirts.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      630,
+      788
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Light blue crew-neck sweatshirt with ribbed cuffs and hem",
+      "de": "Hellblaues Rundhals-Sweatshirt mit Rippbündchen und -saum",
+      "tr": "Ribanalı manşet ve etekli açık mavi bisiklet yaka sweatshirt"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 7,
+      "object": 76,
+      "rect": [
+        20,
+        230,
+        630,
+        788
+      ]
+    },
+    "widths": [
+      480,
+      630
+    ]
+  },
+  "products-corporate-apparel": {
+    "file": "/images/products/corporate-apparel.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      480,
+      600
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Men's textured beige blazer worn with dark tailored trousers",
+      "de": "Strukturierter beiger Herrenblazer zu dunkler Anzughose",
+      "tr": "Koyu kumaş pantolonla kombinlenmiş dokulu bej erkek blazer ceket"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 25,
+      "object": 318,
+      "rect": [
+        0,
+        490,
+        480,
+        600
+      ]
+    },
+    "widths": [
+      480
+    ]
+  },
+  "products-workwear": {
+    "file": "/images/products/workwear.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      500,
+      625
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Royal blue work coat shown from front and back",
+      "de": "Königsblauer Arbeitskittel in Vorder- und Rückansicht",
+      "tr": "Önden ve arkadan görünümüyle saks mavisi iş önlüğü"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 15,
+      "object": 177,
+      "rect": [
+        30,
+        165,
+        500,
+        625
+      ]
+    },
+    "widths": [
+      480,
+      500
+    ]
+  },
+  "products-school-uniforms": {
+    "file": "/images/products/school-uniforms.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      600,
+      750
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Navy A-line uniform skirt with side pleats",
+      "de": "Marineblauer A-Linien-Uniformrock mit seitlichen Falten",
+      "tr": "Yanları pliseli lacivert A kesim üniforma eteği"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 11,
+      "object": 126,
+      "rect": [
+        10,
+        200,
+        600,
+        750
+      ]
+    },
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "products-university-merchandise": {
+    "file": "/images/products/university-merchandise.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      630,
+      788
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Navy full-zip hoodie with contrast red hood lining",
+      "de": "Marineblauer Zip-Hoodie mit kontrastierendem roten Kapuzenfutter",
+      "tr": "Kontrast kırmızı kapüşon astarlı lacivert fermuarlı sweatshirt"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 6,
+      "object": 64,
+      "rect": [
+        20,
+        230,
+        630,
+        788
+      ]
+    },
+    "widths": [
+      480,
+      630
+    ]
+  },
+  "products-graduation-apparel": {
+    "file": "/images/products/graduation-apparel.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": null,
+    "status": "placeholder",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Graduation gown and stole folded beside a mortarboard cap",
+      "de": "Abschlusstalar und Stola gefaltet neben einem Doktorhut",
+      "tr": "Mezuniyet kepinin yanında katlanmış cübbe ve şal"
+    }
+  },
+  "products-accessories": {
+    "file": "/images/products/accessories.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      370,
+      463
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Cream cotton bucket hat with metal eyelets",
+      "de": "Cremefarbener Baumwoll-Fischerhut mit Metallösen",
+      "tr": "Metal havalandırma delikli krem pamuklu bucket şapka"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 30,
+      "object": 380,
+      "rect": [
+        165,
+        350,
+        370,
+        462
+      ]
+    },
+    "widths": [
+      370
+    ]
+  },
+  "products-bags": {
+    "file": "/images/products/bags.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      468,
+      585
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Cream canvas messenger bag with adjustable shoulder strap",
+      "de": "Cremefarbene Canvas-Umhängetasche mit verstellbarem Schultergurt",
+      "tr": "Ayarlanabilir omuz askılı krem kanvas postacı çantası"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 16,
+      "object": 192,
+      "rect": [
+        108,
+        180,
+        468,
+        585
+      ]
+    },
+    "widths": [
+      468
+    ]
+  },
+  "products-caps": {
+    "file": "/images/products/caps.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      434,
+      543
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / What we manufacture; Products / Grid",
+    "alt": {
+      "en": "Navy washed-cotton cap with embroidered sailboat",
+      "de": "Marineblaue Cap aus gewaschener Baumwolle mit gestickter Segelboot-Applikation",
+      "tr": "İşlemeli yelkenli detaylı lacivert yıkamalı pamuk şapka"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 29,
+      "object": 375,
+      "rect": [
+        170,
+        262,
+        434,
+        543
+      ]
+    },
+    "widths": [
+      434
+    ]
+  },
+  "products-showcase-essentials": {
+    "file": "/images/products/showcase-essentials.webp",
+    "target": [
+      1400,
+      1750
+    ],
+    "size": [
+      630,
+      788
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Products / Showcase — Essentials",
+    "alt": {
+      "en": "Mustard long-sleeve knitted polo shirt",
+      "de": "Senfgelbes langärmeliges Strick-Poloshirt",
+      "tr": "Hardal rengi uzun kollu triko polo"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 8,
+      "object": 88,
+      "rect": [
+        20,
+        230,
+        630,
+        788
+      ]
+    },
+    "widths": [
+      480,
+      630
+    ]
+  },
+  "products-showcase-education": {
+    "file": "/images/products/showcase-education.webp",
+    "target": [
+      1400,
+      1750
+    ],
+    "size": [
+      600,
+      750
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Products / Showcase — Education",
+    "alt": {
+      "en": "Navy tailored uniform trousers",
+      "de": "Marineblaue Uniformhose mit klassischem Schnitt",
+      "tr": "Lacivert klasik kesim üniforma pantolonu"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 10,
+      "object": 415,
+      "rect": [
+        10,
+        200,
+        600,
+        750
+      ]
+    },
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "industries-fashion": {
+    "file": "/images/industries/fashion-brands.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      480,
+      600
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / Industries",
+    "alt": {
+      "en": "Beige double-breasted trench coat with belt",
+      "de": "Beiger zweireihiger Trenchcoat mit Gürtel",
+      "tr": "Kemerli bej kruvaze trençkot"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 22,
+      "object": 283,
+      "rect": [
+        0,
+        470,
+        480,
+        600
+      ]
+    },
+    "widths": [
+      480
+    ]
+  },
+  "industries-schools": {
+    "file": "/images/industries/schools.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      600,
+      750
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / Industries",
+    "alt": {
+      "en": "Navy tailored trousers for school uniform programmes",
+      "de": "Marineblaue Hose für Schuluniform-Programme",
+      "tr": "Okul üniforması programları için lacivert klasik pantolon"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 10,
+      "object": 415,
+      "rect": [
+        10,
+        200,
+        600,
+        750
+      ]
+    },
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "industries-universities": {
+    "file": "/images/industries/universities.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      630,
+      788
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / Industries",
+    "alt": {
+      "en": "Purple full-zip hoodie with ribbed cuffs",
+      "de": "Lila Hoodie mit durchgehendem Reißverschluss und Rippbündchen",
+      "tr": "Ribanalı manşetli mor fermuarlı kapüşonlu sweatshirt"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 5,
+      "object": 52,
+      "rect": [
+        20,
+        230,
+        630,
+        788
+      ]
+    },
+    "widths": [
+      480,
+      630
+    ]
+  },
+  "industries-corporate": {
+    "file": "/images/industries/corporate-organizations.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      480,
+      600
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / Industries",
+    "alt": {
+      "en": "Light blue women's button-down shirt",
+      "de": "Hellblaue Damenbluse mit Knopfleiste",
+      "tr": "Açık mavi düğmeli kadın gömleği"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 21,
+      "object": 268,
+      "rect": [
+        0,
+        360,
+        480,
+        600
+      ]
+    },
+    "widths": [
+      480
+    ]
+  },
+  "industries-sports": {
+    "file": "/images/industries/sports-clubs.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      600,
+      750
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / Industries",
+    "alt": {
+      "en": "Navy jogger trousers with drawcord waist and ribbed cuffs",
+      "de": "Marineblaue Jogginghose mit Tunnelzug und Rippbündchen",
+      "tr": "Bel bağcıklı ve ribanalı paçalı lacivert eşofman altı"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 9,
+      "object": 100,
+      "rect": [
+        10,
+        200,
+        600,
+        750
+      ]
+    },
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "industries-events": {
+    "file": "/images/industries/event-companies.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": [
+      560,
+      700
+    ],
+    "status": "final",
+    "position": "50% 50%",
+    "section": "Home / Industries",
+    "alt": {
+      "en": "Backpack, canvas bag, apron and folded T-shirts from the BadFly merchandise range",
+      "de": "Rucksack, Canvas-Tasche, Schürze und gefaltete T-Shirts aus dem BadFly-Merchandise-Sortiment",
+      "tr": "BadFly promosyon ürünlerinden sırt çantası, kanvas çanta, önlük ve katlanmış tişörtler"
+    },
+    "source": {
+      "pdf": "source-materials/badfly-ing.pdf",
+      "page": 1,
+      "object": 449,
+      "rect": [
+        60,
+        600,
+        560,
+        700
+      ]
+    },
+    "widths": [
+      480,
+      560
+    ]
+  },
+  "process-design-development": {
+    "file": "/images/process/design-development.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": null,
+    "status": "placeholder",
+    "position": "50% 50%",
+    "section": "Home / Gallery",
+    "alt": {
+      "en": "Technical garment sketches, a measuring tape and fabric swatches on a design desk",
+      "de": "Technische Modellskizzen, Maßband und Stoffmuster auf einem Designtisch",
+      "tr": "Tasarım masasında teknik giysi çizimleri, mezura ve kumaş numuneleri"
+    }
+  },
+  "process-fabric-selection": {
+    "file": "/images/process/fabric-selection.webp",
+    "target": [
+      1500,
+      1000
+    ],
+    "size": null,
+    "status": "placeholder",
+    "position": "50% 50%",
+    "section": "Home / Gallery",
+    "alt": {
+      "en": "Hands comparing cotton fabric swatches in a range of neutral colours",
+      "de": "Hände vergleichen Baumwollstoffmuster in verschiedenen neutralen Farben",
+      "tr": "Farklı nötr renklerde pamuklu kumaş numunelerini karşılaştıran eller"
+    }
+  },
+  "process-sampling": {
+    "file": "/images/process/sampling.webp",
+    "target": [
+      1200,
+      1200
+    ],
+    "size": null,
+    "status": "placeholder",
+    "position": "50% 50%",
+    "section": "Home / Gallery",
+    "alt": {
+      "en": "Garment sample on a dress form with pinned adjustments",
+      "de": "Kleidungsmuster auf einer Schneiderpuppe mit abgesteckten Anpassungen",
+      "tr": "Terzi mankeni üzerinde iğnelerle düzeltmeleri işaretlenmiş giysi numunesi"
+    }
+  },
+  "process-garment-production": {
+    "file": "/images/process/garment-production.webp",
+    "target": [
+      1200,
+      1600
+    ],
+    "size": null,
+    "status": "placeholder",
+    "position": "50% 50%",
+    "section": "Home / Gallery",
+    "alt": {
+      "en": "Hands assembling a garment at a sewing machine on an organised production line",
+      "de": "Hände an einer Nähmaschine beim Zusammennähen eines Kleidungsstücks an einer aufgeräumten Produktionslinie",
+      "tr": "Düzenli bir üretim hattında dikiş makinesinde giysi birleştiren eller"
+    }
+  },
+  "process-stitching-details": {
+    "file": "/images/process/stitching-details.webp",
+    "target": [
+      1500,
+      1000
+    ],
+    "size": null,
+    "status": "placeholder",
+    "position": "50% 50%",
+    "section": "Home / Gallery",
+    "alt": {
+      "en": "Macro view of even twin-needle stitching on a cotton hem",
+      "de": "Makroaufnahme einer gleichmäßigen Doppelnaht an einem Baumwollsaum",
+      "tr": "Pamuklu bir etek ucunda düzgün çift iğne dikişinin makro görünümü"
+    }
+  },
+  "process-quality-control": {
+    "file": "/images/process/quality-control.webp",
+    "target": [
+      1200,
+      1500
+    ],
+    "size": null,
+    "status": "placeholder",
+    "position": "50% 50%",
+    "section": "Home / Gallery",
+    "alt": {
+      "en": "Hands measuring a finished sweatshirt with a tape measure on an inspection table",
+      "de": "Hände vermessen ein fertiges Sweatshirt mit einem Maßband auf einem Prüftisch",
+      "tr": "Kontrol masasında biten bir sweatshirtü mezurayla ölçen eller"
+    }
+  },
+  "process-packaging": {
+    "file": "/images/process/packaging.webp",
+    "target": [
+      1200,
+      1200
+    ],
+    "size": null,
+    "status": "placeholder",
+    "position": "50% 50%",
+    "section": "Home / Gallery",
+    "alt": {
+      "en": "Folded garments placed in plain cardboard boxes with tissue paper",
+      "de": "Gefaltete Kleidung in schlichten Kartons mit Seidenpapier",
+      "tr": "Pelur kağıtlı sade kartonlara yerleştirilmiş katlanmış giysiler"
+    }
+  },
+  "process-international-delivery": {
+    "file": "/images/process/international-delivery.webp",
+    "target": [
+      1500,
+      1000
+    ],
+    "size": null,
+    "status": "placeholder",
+    "position": "50% 50%",
+    "section": "Home / Gallery",
+    "alt": {
+      "en": "Sealed, unbranded shipping cartons stacked on a pallet in a clean dispatch area",
+      "de": "Versiegelte, neutrale Versandkartons auf einer Palette in einem sauberen Versandbereich",
+      "tr": "Temiz bir sevkiyat alanında palet üzerinde istiflenmiş, kapalı ve markasız koliler"
+    }
+  }
+}
